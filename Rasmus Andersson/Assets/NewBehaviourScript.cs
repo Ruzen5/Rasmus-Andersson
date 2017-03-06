@@ -1,28 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class NewBehaviourScript : MonoBehaviour
+{
     // I give the ints a value. 
-    public int meme = 1;
-    public int meme2 = 2;
-    private int meme3 = 0;
-    private int meme4 = 0;
+
+    public int number1 = 1;
+    public int number2 = 2;
+    private int number3 = 0;
+    private int number4 = 0;
+
     // Use this for initialization
-    void Start()
-        // I give meme and meme 2 opposite values
+    void Start()     
     {
-        meme3 = meme;
-        meme4 = meme2;
-        meme = meme4;
-        meme2 = meme3;
+        // I give meme and meme 2 opposite values
+        number3 = number1;
+        number4 = number2;
+        number1 = number4;
+        number2 = number3;
 
     }
-
-
-
-
-	// Update is called once per frame
-	void Update () {
 	
-	}
 }
+
